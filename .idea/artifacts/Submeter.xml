@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Submeter">
+    <output-path>$PROJECT_DIR$/out/artifacts/Submeter</output-path>
+    <root id="archive" name="Submeter.jar">
+      <element id="module-output" name="RequisicaoLivro" />
+      <element id="directory" name="resources">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/Submeter/classes.pdf" />
+      </element>
+    </root>
+  </artifact>
+</component>
