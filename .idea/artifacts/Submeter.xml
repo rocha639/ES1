@@ -5,6 +5,15 @@
       <element id="module-output" name="RequisicaoLivro" />
       <element id="directory" name="resources">
         <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/Submeter/classes.pdf" />
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/Submeter/ApresentacaoLivro_DiagramaSequencia.png" />
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/Submeter/CasosUso.png" />
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/Submeter/DiagramaAtividades.png" />
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/Submeter/DiagramaEmpacotamento.png" />
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/Submeter/InscricaoApresentacao_DiagramaSequencia.png" />
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/Submeter/RevendaLivro_DiagramaSequencia.png" />
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/Submeter/META-INF/MANIFEST.MF" />
       </element>
     </root>
   </artifact>

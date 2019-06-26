@@ -1,3 +1,5 @@
+import java.time.LocalDateTime;
+
 public interface Repositorio {
 
     public void adicionaPropostaRequisicao(PropostaAquisicao proposta);
@@ -28,4 +30,15 @@ public interface Repositorio {
 
     public Emprestimo devolveEmprestimoDaRequisicao(Requisicao r);
 
+    public void adicionaApresentacao(Apresentacao a);
+
+    public boolean vericarApresentacoes(Apresentacao a);
+
+    public void adicionaRevendaCopia(RevendaCopia rc);
+
+    public boolean verificarCopias(Livro l);
+
+    public void adicionaInscricaoApresentacao(InscricaoApresentacao ia);
+
+    public boolean verificarInscritos(Apresentacao a);
 }
