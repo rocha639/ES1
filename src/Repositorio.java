@@ -41,4 +41,8 @@ public interface Repositorio {
     public void adicionaInscricaoApresentacao(InscricaoApresentacao ia);
 
     public boolean verificarInscritos(Apresentacao a);
+
+    public void adicionaSala(Sala s);
+
+    public void adicionaOrador(Orador o);
 }

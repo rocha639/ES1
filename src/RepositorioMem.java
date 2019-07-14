@@ -148,5 +148,15 @@ public class RepositorioMem implements Repositorio {
         }
     }
 
+    @Override
+    public void adicionaSala(Sala s) {
+        RepositorioArray.add(s);
+    }
+
+    @Override
+    public void adicionaOrador(Orador o) {
+        RepositorioArray.add(o);
+    }
+
 
 }
